@@ -12,7 +12,7 @@ In this project I installed RabbitMQ 3.12.6 and Erlang/OTP 25.3.2 (Erlang was a 
 The instructions described three tutorials from RabbitMQ. For each tutorial, I created two .java files, named HelloWorld*, WorkQueue*, and Topic* accordingly.
 
 ### Trials and tribulations
-1. All projects went without issue, only IntelliJ caused some issues.
+1. All tutorials went without issue, only IntelliJ caused some issues.
 2. I created a new IntelliJ project with a "maven archetype". When I created a class and tried running it, I got a "ClassNotFoundException". Though, IntelliJ itself recognized it as a "main file".  
 2.1 Deleted the project, created new "empty" instead -> Lead to difficulties defining source directory for build step.  
 2.2 Deleted the project, created new project with maven (but not with "maven archetype"). This works as expected.
